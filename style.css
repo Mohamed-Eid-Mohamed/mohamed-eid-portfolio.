@@ -1,0 +1,74 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #121212;
+    color: #e0e0e0;
+    scroll-behavior: smooth;
+}
+
+header.hero-section {
+    background: linear-gradient(135deg, #1f1f1f, #232323);
+    text-align: center;
+    padding: 50px 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #00bcd4;
+}
+
+h1 {
+    margin: 10px 0;
+    color: #00bcd4;
+}
+
+h2 {
+    color: #00bcd4;
+}
+
+.contact a {
+    color: #64ffda;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+    border-bottom: 1px solid #333;
+    animation: fadeUp 1s ease-in;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    background: #1f1f1f;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #999;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
